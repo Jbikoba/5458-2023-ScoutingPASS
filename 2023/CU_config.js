@@ -137,8 +137,6 @@ var config_data = `
         "x": "Not Attempted"
       },
       "defaultValue": "x"
-    },
-      "defaultValue": "x"
     }
   ],
   "endgame": [
