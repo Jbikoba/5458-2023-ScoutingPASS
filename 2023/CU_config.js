@@ -138,23 +138,11 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Substation Use",
-      "code": "sub",
-      "type": "radio",
-      "choices": {
-        "1": "Single<br>",
-        "2": "Double<br>",
-        "b": "Both<br>",
-        "x": "Not Attempted"
-      },
       "defaultValue": "x"
     }
   ],
   "endgame": [
-    { "name": "Docking Timer",
-      "code": "dt",
-      "type": "timer"
-    },
+
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
