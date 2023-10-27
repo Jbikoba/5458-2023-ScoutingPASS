@@ -214,8 +214,8 @@ var config_data = `
     { "name": "Comments",
       "code": "co",
       "type": "text",
-      "size": 15,
-      "maxSize": 55
+      "size": 10,
+      "maxSize": 25
     }
   ]
 }`;
