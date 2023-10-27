@@ -75,10 +75,8 @@ Sub saveData(inp As String)
     mapper.add "acs", "autoCrossedChargingStation"
     mapper.add "am", "autoMobility"
     mapper.add "ad", "autoDocked"
-    mapper.add "aa", "autoAttempted"
     
     ' Teleop
-    mapper.add "tct", "cycleTimes"
     mapper.add "tsg", "scoredGrid"
     mapper.add "tfc", "feedCount"
     mapper.add "wf", "wasFed"
@@ -86,16 +84,13 @@ Sub saveData(inp As String)
     mapper.add "who", "whoDefended"
     mapper.add "lnk", "smartLinks"
     mapper.add "fpu", "floorPickUp"
-    mapper.add "sub", "substationUsed"
-    
-    'Endgame
     mapper.add "dt", "dockingTime"
     mapper.add "fs", "finalState"
     mapper.add "dn", "numOfRobotsDocked"
-    mapper.add "ls", "linksScored"
     
-    'Post-game
+    'Endgame
     mapper.add "ds", "driverSkill"
+    mapper.add "ls", "linksScored"
     mapper.add "dr", "defenseRating"
     mapper.add "sd", "swerveDrive"
     mapper.add "sr", "speedRating"
@@ -204,8 +199,6 @@ Sub savePitData(inp As String)
     mapper.add "fcu", "floorPickUpCubes"
     mapper.add "ccs", "crossCS"
     mapper.add "aut", "autos"
-    mapper.add "sct", "scoutingMethod"
-    mapper.add "co", "comments"
     
     If inp = "Camera" Then
         Exit Sub
