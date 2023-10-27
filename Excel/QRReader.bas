@@ -71,8 +71,8 @@ Sub saveData(inp As String)
     ' Auto
     mapper.add "as", "autoStartingLocation"
     mapper.add "asg", "autoScoredGrid"
-    mapper.add "acc", "autoCrossedCable"
-    mapper.add "acs", "autoCrossedChargingStation"
+   ' mapper.add "acc", "autoCrossedCable"
+   ' mapper.add "acs", "autoCrossedChargingStation"
     mapper.add "am", "autoMobility"
     mapper.add "ad", "autoDocked"
     
@@ -84,13 +84,14 @@ Sub saveData(inp As String)
     mapper.add "who", "whoDefended"
     mapper.add "lnk", "smartLinks"
     mapper.add "fpu", "floorPickUp"
-    mapper.add "dt", "dockingTime"
+   ' mapper.add "dt", "dockingTime"
     mapper.add "fs", "finalState"
     mapper.add "dn", "numOfRobotsDocked"
+    mapper.add "ls", "linksScored"
+
     
     'Endgame
     mapper.add "ds", "driverSkill"
-    mapper.add "ls", "linksScored"
     mapper.add "dr", "defenseRating"
     mapper.add "sd", "swerveDrive"
     mapper.add "sr", "speedRating"
