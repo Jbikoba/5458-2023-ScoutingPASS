@@ -76,10 +76,6 @@ var config_data = `
       "showUndo": "false",
       "shape": "circle 12 black red true"
     },
-    { "name": "Game Pieces attempted<br>(Scored and Missed)",
-      "code": "aa",
-      "type": "counter"
-    },
     { "name": "Mobility?",
       "code": "am",
       "type": "bool"

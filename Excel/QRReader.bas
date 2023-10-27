@@ -75,6 +75,7 @@ Sub saveData(inp As String)
    ' mapper.add "acs", "autoCrossedChargingStation"
     mapper.add "am", "autoMobility"
     mapper.add "ad", "autoDocked"
+   ' mapper.add "aa", "GamePiecesAttempted"
     
     ' Teleop
     mapper.add "tsg", "scoredGrid"
