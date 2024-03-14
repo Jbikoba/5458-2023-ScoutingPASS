@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "",
+      "defaultValue": "2024cada",
       "required": "true"
     },
     { "name": "Match Level",
@@ -73,9 +73,17 @@ var config_data = `
       "code": "aas",
       "type": "counter"
     },
+    { "name": "Amp Missed",
+    "code": "aam",
+    "type": "counter"
+    },
     { "name": "Speaker Scores",
       "code": "ass",
       "type": "counter"
+    },
+    { "name": "Speaker Missed",
+    "code": "asm",
+    "type": "counter"
     }
   ],
   "teleop": [
@@ -83,9 +91,17 @@ var config_data = `
       "code": "tas",
       "type": "counter"
     },
+    { "name": "Amp Missed",
+    "code": "tam",
+    "type": "counter"
+    },
     { "name": "Speaker Scores",
       "code": "tss",
       "type": "counter"
+    },
+    { "name": "Speaker Missed",
+    "code": "tsm",
+    "type": "counter"
     },
     { "name": "Times Amplified",
       "code": "tta",
@@ -104,20 +120,16 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Stage Timer",
-      "code": "dt",
-      "type": "timer"
-    },
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
       "choices": {
-        "p": "Parked<br>",
+        "p": "Parked (in community)<br>",
         "o": "Onstage<br>",
         "s": "Onstage (Spotlit)<br>",
-        "h": "Harmony<br>",
-        "a": "Attempted but failed<br>",
-        "x": "Not attempted"
+        "h": "Harmony (two on one chain)<br>",
+        "a": "Attempted but failed (parked)<br>",
+        "x": "Not attempted (not parked)"
       },
       "defaultValue": "x"
     },
