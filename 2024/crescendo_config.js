@@ -15,13 +15,13 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024cada",
       "required": "true"
     },
     { "name": "Match Level",
       "code": "l",
       "type": "level",
       "choices": {
+        "pr": "Practice <br>",
         "qm": "Quals<br>",
         "sf": "Semifinals<br>",
         "f": "Finals"
