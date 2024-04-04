@@ -17,7 +17,7 @@ var config_data = `
       "type": "event",
       "required": "true"
     },
-          "defaultValue": "x"
+      "defaultValue": "2024caav"
     },
     
     { "name": "Match Level",
