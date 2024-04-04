@@ -17,6 +17,9 @@ var config_data = `
       "type": "event",
       "required": "true"
     },
+          "defaultValue": "x"
+    },
+    
     { "name": "Match Level",
       "code": "l",
       "type": "level",
